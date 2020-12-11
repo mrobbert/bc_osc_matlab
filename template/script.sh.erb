@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-<%- gpu = context.node_type.include?("vis") -%>
+<%- gpu = context.node_type.include?("gpu") -%>
 
 # Clean the environment
 module purge
@@ -30,11 +30,10 @@ cd "${HOME}"
 #
 
 # Load the required environment
-module load xalt/latest <%= context.version %>
+module load <%= context.version %>
 
 # Launch MATLAB
 <%- if gpu -%>
-module load intel/16.0.3 virtualgl
 module list
 set -x
 vglrun matlab -desktop -nosoftwareopengl

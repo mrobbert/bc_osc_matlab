@@ -4,7 +4,7 @@
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A Batch Connect app designed for OSC OnDemand that launches MATLAB within an
-Owens batch job.
+Mines HPC batch job.
 
 ## Prerequisites
 
