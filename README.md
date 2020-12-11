@@ -1,6 +1,5 @@
-# Batch Connect - OSC MATLAB
+# Batch Connect - Mines MATLAB
 
-![GitHub Release](https://img.shields.io/github/release/osc/bc_osc_matlab.svg)
 [![GitHub License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A Batch Connect app designed for OSC OnDemand that launches MATLAB within an
