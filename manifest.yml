@@ -4,7 +4,7 @@ category: Interactive Apps
 subcategory: GUIs
 role: batch_connect
 description: |
-  This app will launch a [MATLAB] GUI on the Wendian cluster. You will be able
+  This app will launch a [MATLAB] GUI on the Mio cluster. You will be able
   to interact with the MATLAB GUI through a VNC session.
 
   [MATLAB]: https://www.mathworks.com/products/matlab.html

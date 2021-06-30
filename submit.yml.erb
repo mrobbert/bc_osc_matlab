@@ -6,7 +6,7 @@
   when "compute"
     slurm_args = [ "--nodes", "#{nodes}", "--ntasks-per-node", "#{ppn}" ]
   when "gpu"
-    slurm_args = [ "--nodes", "#{nodes}", "--ntasks-per-node", "#{ppn}", "--gpus-per-node", "1", "--gres", "vis" ]
+    slurm_args = [ "--partition", "#{node_type}", "--nodes", "#{nodes}", "--ntasks-per-node", "#{ppn}", "--gpus-per-node", "1", "--gres", "gpu" ]
   end
 %>
 ---
