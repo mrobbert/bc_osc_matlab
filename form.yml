@@ -1,7 +1,6 @@
 ---
 cluster:
   - "wendian"
-  - "mio"
 form:
   - version
   - bc_account
