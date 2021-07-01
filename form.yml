@@ -28,13 +28,11 @@ attributes:
     widget: select
     label: "Node type"
     help: |
-      - **compute** - (*1-28 cores*) Use any available Mio compute node. This reduces the
+      - **compute7** - (*1-28 cores*) Use any available Mio compute node. This reduces the
         wait time as there are no node requirements.
       - **gpu** - (*1-32 cores*) Use an Mio GPU node that has an NVIDIA Tesla P100
-        GPU with an X server running in the background. This utilizes the GPU for hardware
-        accelerated 3D visualization. There are 5 of these nodes on Wendian.
     options:
-      - "compute"
+      - "compute7"
       - "gpu"
   version:
     widget: select
@@ -42,4 +40,4 @@ attributes:
     help: "This defines the version of MATLAB you want to load."
     options:
       - [ "R2020a", "Apps/Matlab/R2020a" ]
-      - [ "R2018b", "Apps/Matlab/R2017b" ]
+      - [ "R2017b", "Apps/Matlab/R2017b" ]
