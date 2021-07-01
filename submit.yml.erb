@@ -3,7 +3,7 @@
   nodes = bc_num_slots.blank? ? 1 : bc_num_slots.to_i
 
   case node_type
-  when "compute"
+  when "compute7"
     slurm_args = [ "--nodes", "#{nodes}", "--ntasks-per-node", "#{ppn}" ]
   when "gpu"
     slurm_args = [ "--partition", "#{node_type}", "--nodes", "#{nodes}", "--ntasks-per-node", "#{ppn}", "--gpus-per-node", "1", "--gres", "gpu" ]
